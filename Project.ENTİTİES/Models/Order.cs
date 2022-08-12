@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.ENTİTİES.Models
 {
-    public class Order : BaseEntities
+    public class Order : BaseEntiti
     {
         public string ShippedAddres { get; set; }
         public int? AppUserID { get; set; }

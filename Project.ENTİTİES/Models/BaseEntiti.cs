@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Project.ENTİTİES.Models
 {
-    public abstract class BaseEntities
+    public abstract class BaseEntiti
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
         public DateTime? DeletedDate { get; set; }
         public DataStatus Status { get; set; }
-        public BaseEntities()
+        public BaseEntiti()
         {
             Status = DataStatus.Inserted;
             CreateDate = DateTime.Now;

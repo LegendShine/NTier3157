@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.ENTİTİES.Models
 {
-    public class Shipper : BaseEntities
+    public class Shipper : BaseEntiti
     {
         public string CompanyName { get; set; }
         public string Phone { get; set; }

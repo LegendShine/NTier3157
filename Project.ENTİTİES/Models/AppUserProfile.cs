@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.ENTİTİES.Models
 {
-    public class AppUserProfile : BaseEntities
+    public class AppUserProfile : BaseEntiti
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

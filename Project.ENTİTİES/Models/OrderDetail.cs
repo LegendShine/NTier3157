@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.ENTİTİES.Models
 {
-    public class OrderDetail : BaseEntities
+    public class OrderDetail : BaseEntiti
     {
         public int OrderID { get; set; }
         public int ProductID { get; set; }
